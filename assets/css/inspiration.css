@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2e2e2e;
+    font-family: 'Work Sans';
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100%;
+    padding: 5vh;
+}
+header>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7vh;
+    margin-right: 10vh;
+}
+header>ul li{
+    padding: 0 1vh;
+}
+header>ul li:nth-of-type(1){
+    padding-right: 6vh;
+}
+header>ul li:nth-of-type(5){
+    padding-left: 6vh;
+}
+header>ul a:hover{
+    transition: 0.5s;
+}
+header>ul a:hover{
+    color: #ebccc2;
+    text-decoration: underline;
+}
+header a{
+    color: #867772 ;
+    font-size: 1.5vh;
+}
+nav{
+    padding-left: 2vh;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20vh;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 4vh;
+    color: rgb(115, 115, 115) ;
+}
+nav li:not(:nth-of-type(4))::before{
+    content: "⚬";
+    font-size: 4vh;
+    margin-top: 2vh;
+    font-weight: 100;
+    padding-left: 0.25vh;
+}
+nav li:nth-of-type(4)::before{
+    content: "◎";
+    font-size: 3vh;
+    margin-top: 2vh;
+    font-weight: 100;
+    color: #fff;
+}
+nav li:not(:last-of-type)::after{
+    content: "|";
+    font-family: 'Work Sans';
+    font-weight: 100;
+    font-size: 6vh;
+    display: block;
+    padding-left: 1vh;
+}
+nav a{
+    font-size: 1.4vh;
+    color: rgba(255,255,255,0.5) ;
+    padding-left: 4vh;
+}
+nav li:nth-of-type(4) a{
+    color: #fff;
+}
+main{
+    margin-bottom: 15vh;
+}
+video{
+    height: 60vh;
+    margin: 20vh 0 20vh 50vw;
+    transform: translate(-50%);
+}
+article{
+    margin: 0 40vh 15vh;
+}
+article h1{
+    color: #ebccc2;
+    font-size: 2.5vh;
+    font-weight: 300;
+    margin-bottom: 1vh;
+}
+article h2{
+    color: #ebccc2;
+    font-size: 4.5vh;
+    font-weight: 300;
+    margin-bottom: 3vh;
+}
+article ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 2vh;
+}
+article li{
+    color: rgb(115, 115, 115);
+    font-size: 1.3vh;
+    letter-spacing: 0.25vh;
+    border: 1px solid #fff;
+    padding: 0.75vh;
+    margin-right: 1vh;
+}
+article p{
+    color: rgb(115, 115, 115);
+}
+
+section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 40vh;
+    align-items: center;
+}
+section img{
+    width: 100%;
+}
+.alchemy div{
+    padding-left: 5vh;
+}
+.architecture div{
+    padding-right: 5vh;
+}
+section h2{
+    color: #ebccc2;
+    font-size: 2.5vh;
+    font-weight: 300;
+    padding-bottom: 2vh;
+}
+section h3{
+    color: #ebccc2;
+    font-size: 4.5vh;
+    font-weight: 300;
+    padding-bottom: 3vh;
+}
+section p{
+    color: rgb(115, 115, 115);
+    line-height: 3vh;
+    font-weight: 300;
+}
