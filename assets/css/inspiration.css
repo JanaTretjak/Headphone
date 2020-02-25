@@ -14,7 +14,6 @@ header{
     position: fixed;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
     width: 100%;
     padding: 5vh;
 }
@@ -47,8 +46,7 @@ header a{
 }
 nav{
     padding-left: 2vh;
-    height: 100vh;
-    width: 100%;
+    position: fixed;
     padding-top: 20vh;
 }
 nav ul{
