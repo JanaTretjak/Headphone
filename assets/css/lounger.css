@@ -92,6 +92,9 @@ nav a{
 nav li:nth-of-type(2) a{
     color: #fff;
 }
+nav a:hover{
+    color: #ebccc2;
+}
 main{
     padding-left: 8vh;
     padding-right: 15vh;

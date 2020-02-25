@@ -92,6 +92,9 @@ nav a{
 nav li:nth-of-type(5) a{
     color: #fff;
 }
+nav a:hover{
+    color: #ebccc2;
+}
 main{
     text-align: center;
 }

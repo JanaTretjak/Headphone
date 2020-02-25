@@ -74,6 +74,9 @@ nav a{
     color: rgba(255,255,255,0.5) ;
     padding-left: 4vh;
 }
+nav a:hover{
+    color: #ebccc2;
+}
 main{
     padding: 15vh 35vh 10vh;
 }
